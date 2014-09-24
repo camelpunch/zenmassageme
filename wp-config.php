@@ -55,6 +55,12 @@ define('SECURE_AUTH_SALT', $_ENV['SECURE_AUTH_SALT']);
 define('LOGGED_IN_SALT',   $_ENV['LOGGED_IN_SALT']);
 define('NONCE_SALT',       $_ENV['NONCE_SALT']);
 
+/**#@+
+ * AWS keys
+ */
+define('AWS_ACCESS_KEY_ID', $_ENV['AWS_ACCESS_KEY_ID']);
+define('AWS_SECRET_ACCESS_KEY', $_ENV['AWS_SECRET_ACCESS_KEY']);
+
 /**#@-*/
 
 /**
