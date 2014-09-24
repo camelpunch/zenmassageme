@@ -1,10 +1,10 @@
 ---
 applications:
-  - name: blog
+  - name: www
     memory: 128M
     instances: 1
-    host: blog
-    domain: andrewbruce.net
+    host: www
+    domain: zenmassage.me
     path: .
     buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
     services:
